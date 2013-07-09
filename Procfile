@@ -1,1 +1,1 @@
-functioningoAuth: bundle exec rake db:create && bundle exec rake db:migrate
+functioningoAuth: bundle exec rackup config.ru -p $PORT
